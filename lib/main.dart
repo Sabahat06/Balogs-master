@@ -7,7 +7,8 @@ import 'package:webview_flutter/webview_flutter.dart';
 void main(){
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
-    home:SplashScreen(),));
+    home: InitialUrlScreen()));
+    // SplashScreen(),));
 }
 
 

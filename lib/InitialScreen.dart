@@ -59,7 +59,7 @@ class _InitialUrlScreenState extends State<InitialUrlScreen> {
               ),
               Expanded(
                 child: WebView(
-                  initialUrl: "https://balogs.co.uk/mobile-homepage/",
+                  initialUrl: "https://advice.pk/",
                   javascriptMode: JavascriptMode.unrestricted,
                   onWebViewCreated: (controller){
                     this.controller=controller;
